@@ -15,6 +15,9 @@
 		125982AD2BB4945C00D2EE24 /* BrainAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125982AC2BB4945C00D2EE24 /* BrainAPIUITests.swift */; };
 		125982AF2BB4945C00D2EE24 /* BrainAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125982AE2BB4945C00D2EE24 /* BrainAPIUITestsLaunchTests.swift */; };
 		125982C02BB496F200D2EE24 /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125982BF2BB496F200D2EE24 /* CoreDataProvider.swift */; };
+		125982C32BB498F100D2EE24 /* BrainAPIModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 125982C12BB498F100D2EE24 /* BrainAPIModel.xcdatamodeld */; };
+		125982C52BB49A5900D2EE24 /* MyList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125982C42BB49A5900D2EE24 /* MyList+CoreDataClass.swift */; };
+		125982C72BB49A7800D2EE24 /* MyList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125982C62BB49A7800D2EE24 /* MyList+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		125982AC2BB4945C00D2EE24 /* BrainAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainAPIUITests.swift; sourceTree = "<group>"; };
 		125982AE2BB4945C00D2EE24 /* BrainAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		125982BF2BB496F200D2EE24 /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
+		125982C22BB498F100D2EE24 /* BrainAPIModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrainAPIModel.xcdatamodel; sourceTree = "<group>"; };
+		125982C42BB49A5900D2EE24 /* MyList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		125982C62BB49A7800D2EE24 /* MyList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,9 @@
 		125982BC2BB4947300D2EE24 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				125982C12BB498F100D2EE24 /* BrainAPIModel.xcdatamodeld */,
+				125982C42BB49A5900D2EE24 /* MyList+CoreDataClass.swift */,
+				125982C62BB49A7800D2EE24 /* MyList+CoreDataProperties.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -295,7 +304,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				125982932BB4945A00D2EE24 /* ContentView.swift in Sources */,
+				125982C32BB498F100D2EE24 /* BrainAPIModel.xcdatamodeld in Sources */,
 				125982912BB4945A00D2EE24 /* BrainAPIApp.swift in Sources */,
+				125982C72BB49A7800D2EE24 /* MyList+CoreDataProperties.swift in Sources */,
+				125982C52BB49A5900D2EE24 /* MyList+CoreDataClass.swift in Sources */,
 				125982C02BB496F200D2EE24 /* CoreDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -653,6 +665,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		125982C12BB498F100D2EE24 /* BrainAPIModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				125982C22BB498F100D2EE24 /* BrainAPIModel.xcdatamodel */,
+			);
+			currentVersion = 125982C22BB498F100D2EE24 /* BrainAPIModel.xcdatamodel */;
+			name = BrainAPIModel.xcdatamodeld;
+			path = /Users/weldtactics/Development/apple_native/ios_active_projects/BrainAPI/BrainAPI/Models/BrainAPIModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 125982852BB4945A00D2EE24 /* Project object */;
 }
